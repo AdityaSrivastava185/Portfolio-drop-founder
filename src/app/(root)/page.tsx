@@ -13,7 +13,7 @@ export default function Home() {
   return (
 
     <>
-      <div className="max-w-xl mx-auto flex flex-col justify-center min-h-screen space-y-7">
+      <div className="max-w-xl mx-auto flex flex-col justify-center min-h-screen space-y-7 px-7 md:px-0 my-10 md:my-0">
         <Image src={ProfileImage} alt="Profile Image" width={70} height={70} />
         <div className="space-y-2">
           <HeroTitle title={Name} />

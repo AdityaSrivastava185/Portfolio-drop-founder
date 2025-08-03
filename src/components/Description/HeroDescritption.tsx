@@ -5,7 +5,7 @@ const HeroDescritption = ({description} : HeroDescription) => {
   return (
     <div>
        <div>
-          <p>{description}</p>
+          <p className='text-balance'>{description}</p>
         </div>
     </div>
   )
