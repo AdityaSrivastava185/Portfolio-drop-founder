@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link";
 import HeroTitle from "@/utility/HeroTitle";
 import { Name, ProfileImage } from "@/data";
@@ -8,8 +9,18 @@ import Image from "next/image";
 import Socials from "@/components/Socials/Socials";
 import Contactus from "@/components/Contactus/Contactus";
 import Watermark from "@/components/Watermark/Watermark";
+import { useEffect } from "react";
+import Lenis from "lenis";
 
 export default function Home() {
+   useEffect(() => {
+    const lenis = new Lenis()
+    function raf(time:any){
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+    requestAnimationFrame(raf)
+  },[])
   return (
 
     <>

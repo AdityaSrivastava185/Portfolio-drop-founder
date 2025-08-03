@@ -7,7 +7,7 @@ const ExperienceSection = () => {
         <div className='space-y-7'>
             <HeroTitle title="Experience" />
             <div>
-                <ul className="list-disc pl-5 space-y-7">
+                <ul className="md:list-disc md:pl-5 space-y-7">
                     <div>
                         <li className="text-lg font-medium">Hanalabs</li>
                         <ExperienceRole role="Frontend Developer Internship, Remote" />
