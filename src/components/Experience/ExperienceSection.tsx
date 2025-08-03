@@ -11,7 +11,7 @@ const ExperienceSection = () => {
                     <div>
                         <li className="text-lg font-medium">Hanalabs</li>
                         <ExperienceRole role="Frontend Developer Internship, Remote" />
-                        <p>As a Frontend Developer Intern at HanaLabs, I participated in creating high-fidelity, captivating user interfaces. My role specifically included reducing the frontend load time and improving responsiveness on mobile and desktop devices. </p>
+                        <p>As a Frontend Developer Intern at HanaLabs, I participated in creating captivating user interfaces. My role specifically included reducing the frontend load time and improving responsiveness on mobile and desktop devices. </p>
                     </div>
                     <div>
                         <li className="text-lg font-medium">Intentjs</li>
