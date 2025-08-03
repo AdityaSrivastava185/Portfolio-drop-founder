@@ -5,7 +5,7 @@ const HeroDescritption = ({description} : HeroDescription) => {
   return (
     <div>
        <div>
-          <p className='text-balance'>{description}</p>
+          <p className='md:text-balance'>{description}</p>
         </div>
     </div>
   )

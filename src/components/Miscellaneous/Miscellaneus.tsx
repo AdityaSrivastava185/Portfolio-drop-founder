@@ -7,7 +7,7 @@ const Miscellaneus = () => {
     <div className='space-y-7'>
        <HeroTitle title="Miscellaneous and Credentials" />
         <div>
-          <ul className="list-disc pl-5 text-balance space-y-2">
+          <ul className="list-disc pl-5 md:text-balance space-y-2">
             <li>Founding <Link href={"https://boring-designer.com"} className="text-blue-500 underline">@Boring-Designer</Link></li>
             <li>Certification by <Link href={"https://lfx.linuxfoundation.org/tools/mentorship/"} className="text-blue-500 underline">Linux Foundation</Link> in Open Source Technical Documentations Essentials (LFC111)</li>
             <li>
