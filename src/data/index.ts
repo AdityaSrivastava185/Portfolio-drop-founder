@@ -2,6 +2,9 @@
 // Profile Image
 export const ProfileImage = "/profile-image.svg";
 
+// Profile Name
+export const Name = "Aditya Srivastava";
+
 //Profile Socials
 
 //Linkedin
@@ -32,8 +35,3 @@ export const PortfolioSocials =
     }
 
 
-// Profile Name
-export const Name = "Aditya Srivastava";
-
-// Profile Description
-export const Description = "22 y/o born in India, a passionate front-end developer and open-source contributor. I craft clean, responsive user interfaces and love building tools that help developers thrive.";
